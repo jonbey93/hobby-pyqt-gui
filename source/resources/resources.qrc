@@ -1,0 +1,19 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file alias="save.svg">save.svg</file>
+    <file alias="save-white.svg">save-white.svg</file>
+
+    <file alias="open.svg">open.svg</file>
+    <file alias="open-white.svg">open-white.svg</file>
+
+    <file alias="newfile.svg">newfile.svg</file>
+    <file alias="newfile-white.svg">newfile-white.svg</file>
+
+    <file alias="delfile.svg">delfile.svg</file>
+    <file alias="delfile-white.svg">delfile-white.svg</file>
+
+    <file alias="closefile.svg">closefile.svg</file>
+    <file alias="closefile-white.svg">closefile-white.svg</file>
+  
+</qresource>
+</RCC>

@@ -1,0 +1,44 @@
+QListWidget {
+    font-family: Verdana;
+    font: bold;
+    border: none;
+    color: black;                       /* Default text color */
+    padding: 8px;                       /* Slightly increase padding for better spacing */
+    border-radius: 8px;                 /* Add subtle rounded corners */
+}
+
+QListWidget::item {
+    background-color: white;
+    height: 36px;                       /* Slightly taller for better usability */
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 4px 8px;                   /* Add internal padding for item content */
+    margin: 0;                          /* Ensure items align neatly without extra spacing */
+}
+
+QListWidget::item:selected {
+    background-color: #007BFF;          /* Keep the blue background for selected items */
+    color: white;                       /* Maintain white text when selected */
+    border-radius: 8px;                 /* Add slight rounding to match overall design */
+    padding: 4px 8px;                   /* Ensure consistent padding */
+    border: none;                       /* Remove borders for a cleaner selected look */
+}
+
+QListWidget::item:selected:hover {
+    background-color: #0056b3;          /* Darker shade of blue for hover over selected item */
+    color: #f0f0f0;                     /* Slightly lighter text color to differentiate */
+    border-radius: 8px;                 /* Ensure consistent rounded corners */    
+}
+
+QListWidget::item:hover {
+    background-color: #66B2FF;          /* Retain the light blue hover background */
+    color: black;                       /* Ensure text visibility remains high */
+    border: none;                       /* Avoid double borders on hover */
+}
+
+QListWidget::item:disabled {
+    background-color: #f0f0f0;          /* Add a subtle gray background for disabled items */
+    color: #999;                        /* Light gray text to indicate disabled state */
+    text-decoration: line-through;      /* Optional: visually differentiate disabled items */
+    border-bottom: 1px solid #ddd;      /* Keep the bottom border for consistency */
+}

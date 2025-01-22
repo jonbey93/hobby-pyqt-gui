@@ -1,0 +1,10 @@
+QToolBar {
+    border: 1px solid white
+    background: white;
+    border-radius: 8px;        
+}
+
+QToolTip {
+    color: white;
+    background-color: black;
+}
